@@ -46,4 +46,4 @@ productSchema.pre('save', function (next) {
 
 productSchema.index({ name: 'text', description: 'text', tags: 'text' });
 
-module.exports = mongoose.model('Product', productSchema);
+
